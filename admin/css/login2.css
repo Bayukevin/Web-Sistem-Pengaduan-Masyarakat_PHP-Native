@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+h3{
+  font-size: 25px;
+}
+.wrapperr-form{
+  display: flex;
+  flex-direction: column;
+}
+.form{
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.wrapper-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.btn-submit{
+  height: 20px;
+  width: 150px;
+  border-radius: 20px;
+}

@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #404250;
+  padding: 10px 20px;
+}
+.judul{
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.btn-sigOut{
+  font-size: 15px;
+  color: aliceblue;
+}
+.container-isi{
+  height: 92vh;
+  display: flex;
+} 
+.judullaporan{
+  margin-left: 25px;
+}
+
+/* aside */
+.containerAside{
+ width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #474E68;
+}
+.profile-main img{
+  border-radius: 50%;
+}
+.wrapper-nameAdmin{
+  display: flex;
+}
+.nav-admin ul li{
+  list-style:none;
+  margin: 15px 0;
+}
+.nav-admin ul li a{
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+.wrapper-nameAdmin p{
+  margin-top: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+/* container-card */
+.container-card{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.card-body{
+  /* width: 300px; */
+  height: 30px;
+  margin: 0 10px;
+  background-color: #50577A;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 10px 18px #888888;
+  font-size: 20px;
+}
+
+/* table */
+.container-table{
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+table,tr, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+table tr th{
+  background-color: #6B728E;
+  color: white;
+}
+th,td{
+  text-align: center;
+  width: 150px;
+  padding: 5px;
+}
